@@ -407,6 +407,11 @@ section .article {
   transform: scale(0.7);
 }
 
+@media (max-width: 780px) {
+    #cursor {
+        display: none;
+      }
+}
 @media (max-width: 530px) {
 
     .section .info {
@@ -421,6 +426,7 @@ section .article {
       .about .p {
         font-size: 1em;
       }
+      
       
 }
 
